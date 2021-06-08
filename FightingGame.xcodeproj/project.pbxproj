@@ -30,6 +30,7 @@
 		CAEB4B9B266FD4BD00C50E26 /* MinotaurDeath.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B98266FD4BD00C50E26 /* MinotaurDeath.atlas */; };
 		CAEB4B9C266FD4BD00C50E26 /* MinotaurDamage2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B99266FD4BD00C50E26 /* MinotaurDamage2.atlas */; };
 		CAEB4B9D266FD4BD00C50E26 /* MinotaurDamage1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B9A266FD4BD00C50E26 /* MinotaurDamage1.atlas */; };
+		CAEB4BA22670136A00C50E26 /* MinotaurJump.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4BA12670136A00C50E26 /* MinotaurJump.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		CAEB4B98266FD4BD00C50E26 /* MinotaurDeath.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurDeath.atlas; sourceTree = "<group>"; };
 		CAEB4B99266FD4BD00C50E26 /* MinotaurDamage2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurDamage2.atlas; sourceTree = "<group>"; };
 		CAEB4B9A266FD4BD00C50E26 /* MinotaurDamage1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurDamage1.atlas; sourceTree = "<group>"; };
+		CAEB4BA12670136A00C50E26 /* MinotaurJump.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurJump.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		CAEB4AF9266F997900C50E26 /* FightingGame */ = {
 			isa = PBXGroup;
 			children = (
+				CAEB4BA12670136A00C50E26 /* MinotaurJump.atlas */,
 				CAEB4B9A266FD4BD00C50E26 /* MinotaurDamage1.atlas */,
 				CAEB4B99266FD4BD00C50E26 /* MinotaurDamage2.atlas */,
 				CAEB4B98266FD4BD00C50E26 /* MinotaurDeath.atlas */,
@@ -279,6 +282,7 @@
 				CAEB4B9C266FD4BD00C50E26 /* MinotaurDamage2.atlas in Resources */,
 				CAEB4B06266F997900C50E26 /* Main.storyboard in Resources */,
 				CAEB4B78266FCD9C00C50E26 /* SkeletonHit.atlas in Resources */,
+				CAEB4BA22670136A00C50E26 /* MinotaurJump.atlas in Resources */,
 				CAEB4B08266F997C00C50E26 /* Assets.xcassets in Resources */,
 				CAEB4B77266FCD9C00C50E26 /* SkeletonDead.atlas in Resources */,
 				CAEB4B8F266FD4B700C50E26 /* MinotaurIdle.atlas in Resources */,
