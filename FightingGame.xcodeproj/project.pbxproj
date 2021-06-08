@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CAEB4AFB266F997900C50E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB4AFA266F997900C50E26 /* AppDelegate.swift */; };
-		CAEB4AFD266F997900C50E26 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4AFC266F997900C50E26 /* GameScene.sks */; };
-		CAEB4AFF266F997900C50E26 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4AFE266F997900C50E26 /* Actions.sks */; };
 		CAEB4B01266F997900C50E26 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB4B00266F997900C50E26 /* GameScene.swift */; };
 		CAEB4B03266F997900C50E26 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB4B02266F997900C50E26 /* GameViewController.swift */; };
 		CAEB4B06266F997900C50E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B04266F997900C50E26 /* Main.storyboard */; };
 		CAEB4B08266F997C00C50E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B07266F997C00C50E26 /* Assets.xcassets */; };
 		CAEB4B13266F997C00C50E26 /* FightingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB4B12266F997C00C50E26 /* FightingGameTests.swift */; };
 		CAEB4B1E266F997C00C50E26 /* FightingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB4B1D266F997C00C50E26 /* FightingGameUITests.swift */; };
+		CAEB4B42266F9FE000C50E26 /* SkeletonWalk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B41266F9FE000C50E26 /* SkeletonWalk.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 /* Begin PBXFileReference section */
 		CAEB4AF7266F997900C50E26 /* FightingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEB4AFA266F997900C50E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAEB4AFC266F997900C50E26 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		CAEB4AFE266F997900C50E26 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		CAEB4B00266F997900C50E26 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		CAEB4B02266F997900C50E26 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CAEB4B05266F997900C50E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +48,7 @@
 		CAEB4B19266F997C00C50E26 /* FightingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FightingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEB4B1D266F997C00C50E26 /* FightingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightingGameUITests.swift; sourceTree = "<group>"; };
 		CAEB4B1F266F997C00C50E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEB4B41266F9FE000C50E26 /* SkeletonWalk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SkeletonWalk.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +99,8 @@
 		CAEB4AF9266F997900C50E26 /* FightingGame */ = {
 			isa = PBXGroup;
 			children = (
+				CAEB4B41266F9FE000C50E26 /* SkeletonWalk.atlas */,
 				CAEB4AFA266F997900C50E26 /* AppDelegate.swift */,
-				CAEB4AFC266F997900C50E26 /* GameScene.sks */,
-				CAEB4AFE266F997900C50E26 /* Actions.sks */,
 				CAEB4B00266F997900C50E26 /* GameScene.swift */,
 				CAEB4B02266F997900C50E26 /* GameViewController.swift */,
 				CAEB4B04266F997900C50E26 /* Main.storyboard */,
@@ -235,9 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAEB4B06266F997900C50E26 /* Main.storyboard in Resources */,
-				CAEB4AFD266F997900C50E26 /* GameScene.sks in Resources */,
 				CAEB4B08266F997C00C50E26 /* Assets.xcassets in Resources */,
-				CAEB4AFF266F997900C50E26 /* Actions.sks in Resources */,
+				CAEB4B42266F9FE000C50E26 /* SkeletonWalk.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
