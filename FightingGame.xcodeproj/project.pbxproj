@@ -15,6 +15,21 @@
 		CAEB4B13266F997C00C50E26 /* FightingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB4B12266F997C00C50E26 /* FightingGameTests.swift */; };
 		CAEB4B1E266F997C00C50E26 /* FightingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB4B1D266F997C00C50E26 /* FightingGameUITests.swift */; };
 		CAEB4B42266F9FE000C50E26 /* SkeletonWalk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B41266F9FE000C50E26 /* SkeletonWalk.atlas */; };
+		CAEB4B74266FCD9C00C50E26 /* SkeletonIdle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B6F266FCD9B00C50E26 /* SkeletonIdle.atlas */; };
+		CAEB4B75266FCD9C00C50E26 /* SkeletonReact.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B70266FCD9B00C50E26 /* SkeletonReact.atlas */; };
+		CAEB4B77266FCD9C00C50E26 /* SkeletonDead.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B72266FCD9C00C50E26 /* SkeletonDead.atlas */; };
+		CAEB4B78266FCD9C00C50E26 /* SkeletonHit.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B73266FCD9C00C50E26 /* SkeletonHit.atlas */; };
+		CAEB4B80266FCDEA00C50E26 /* SkeletonAttack.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B7F266FCDEA00C50E26 /* SkeletonAttack.atlas */; };
+		CAEB4B8E266FD4B700C50E26 /* MinotaurAttack4.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B87266FD4B600C50E26 /* MinotaurAttack4.atlas */; };
+		CAEB4B8F266FD4B700C50E26 /* MinotaurIdle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B88266FD4B600C50E26 /* MinotaurIdle.atlas */; };
+		CAEB4B90266FD4B700C50E26 /* MinotaurAttack3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B89266FD4B600C50E26 /* MinotaurAttack3.atlas */; };
+		CAEB4B91266FD4B700C50E26 /* MinotaurAttack1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B8A266FD4B700C50E26 /* MinotaurAttack1.atlas */; };
+		CAEB4B92266FD4B700C50E26 /* MinotaurMove.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B8B266FD4B700C50E26 /* MinotaurMove.atlas */; };
+		CAEB4B93266FD4B700C50E26 /* MinotaurTaunt.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B8C266FD4B700C50E26 /* MinotaurTaunt.atlas */; };
+		CAEB4B94266FD4B700C50E26 /* MinotaurAttack2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B8D266FD4B700C50E26 /* MinotaurAttack2.atlas */; };
+		CAEB4B9B266FD4BD00C50E26 /* MinotaurDeath.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B98266FD4BD00C50E26 /* MinotaurDeath.atlas */; };
+		CAEB4B9C266FD4BD00C50E26 /* MinotaurDamage2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B99266FD4BD00C50E26 /* MinotaurDamage2.atlas */; };
+		CAEB4B9D266FD4BD00C50E26 /* MinotaurDamage1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CAEB4B9A266FD4BD00C50E26 /* MinotaurDamage1.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,21 @@
 		CAEB4B1D266F997C00C50E26 /* FightingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightingGameUITests.swift; sourceTree = "<group>"; };
 		CAEB4B1F266F997C00C50E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAEB4B41266F9FE000C50E26 /* SkeletonWalk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SkeletonWalk.atlas; sourceTree = "<group>"; };
+		CAEB4B6F266FCD9B00C50E26 /* SkeletonIdle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SkeletonIdle.atlas; sourceTree = "<group>"; };
+		CAEB4B70266FCD9B00C50E26 /* SkeletonReact.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SkeletonReact.atlas; sourceTree = "<group>"; };
+		CAEB4B72266FCD9C00C50E26 /* SkeletonDead.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SkeletonDead.atlas; sourceTree = "<group>"; };
+		CAEB4B73266FCD9C00C50E26 /* SkeletonHit.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SkeletonHit.atlas; sourceTree = "<group>"; };
+		CAEB4B7F266FCDEA00C50E26 /* SkeletonAttack.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SkeletonAttack.atlas; sourceTree = "<group>"; };
+		CAEB4B87266FD4B600C50E26 /* MinotaurAttack4.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurAttack4.atlas; sourceTree = "<group>"; };
+		CAEB4B88266FD4B600C50E26 /* MinotaurIdle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurIdle.atlas; sourceTree = "<group>"; };
+		CAEB4B89266FD4B600C50E26 /* MinotaurAttack3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurAttack3.atlas; sourceTree = "<group>"; };
+		CAEB4B8A266FD4B700C50E26 /* MinotaurAttack1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurAttack1.atlas; sourceTree = "<group>"; };
+		CAEB4B8B266FD4B700C50E26 /* MinotaurMove.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurMove.atlas; sourceTree = "<group>"; };
+		CAEB4B8C266FD4B700C50E26 /* MinotaurTaunt.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurTaunt.atlas; sourceTree = "<group>"; };
+		CAEB4B8D266FD4B700C50E26 /* MinotaurAttack2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurAttack2.atlas; sourceTree = "<group>"; };
+		CAEB4B98266FD4BD00C50E26 /* MinotaurDeath.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurDeath.atlas; sourceTree = "<group>"; };
+		CAEB4B99266FD4BD00C50E26 /* MinotaurDamage2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurDamage2.atlas; sourceTree = "<group>"; };
+		CAEB4B9A266FD4BD00C50E26 /* MinotaurDamage1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MinotaurDamage1.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +129,21 @@
 		CAEB4AF9266F997900C50E26 /* FightingGame */ = {
 			isa = PBXGroup;
 			children = (
+				CAEB4B9A266FD4BD00C50E26 /* MinotaurDamage1.atlas */,
+				CAEB4B99266FD4BD00C50E26 /* MinotaurDamage2.atlas */,
+				CAEB4B98266FD4BD00C50E26 /* MinotaurDeath.atlas */,
+				CAEB4B8A266FD4B700C50E26 /* MinotaurAttack1.atlas */,
+				CAEB4B8D266FD4B700C50E26 /* MinotaurAttack2.atlas */,
+				CAEB4B89266FD4B600C50E26 /* MinotaurAttack3.atlas */,
+				CAEB4B87266FD4B600C50E26 /* MinotaurAttack4.atlas */,
+				CAEB4B88266FD4B600C50E26 /* MinotaurIdle.atlas */,
+				CAEB4B8B266FD4B700C50E26 /* MinotaurMove.atlas */,
+				CAEB4B8C266FD4B700C50E26 /* MinotaurTaunt.atlas */,
+				CAEB4B7F266FCDEA00C50E26 /* SkeletonAttack.atlas */,
+				CAEB4B72266FCD9C00C50E26 /* SkeletonDead.atlas */,
+				CAEB4B73266FCD9C00C50E26 /* SkeletonHit.atlas */,
+				CAEB4B6F266FCD9B00C50E26 /* SkeletonIdle.atlas */,
+				CAEB4B70266FCD9B00C50E26 /* SkeletonReact.atlas */,
 				CAEB4B41266F9FE000C50E26 /* SkeletonWalk.atlas */,
 				CAEB4AFA266F997900C50E26 /* AppDelegate.swift */,
 				CAEB4B00266F997900C50E26 /* GameScene.swift */,
@@ -231,8 +276,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAEB4B9C266FD4BD00C50E26 /* MinotaurDamage2.atlas in Resources */,
 				CAEB4B06266F997900C50E26 /* Main.storyboard in Resources */,
+				CAEB4B78266FCD9C00C50E26 /* SkeletonHit.atlas in Resources */,
 				CAEB4B08266F997C00C50E26 /* Assets.xcassets in Resources */,
+				CAEB4B77266FCD9C00C50E26 /* SkeletonDead.atlas in Resources */,
+				CAEB4B8F266FD4B700C50E26 /* MinotaurIdle.atlas in Resources */,
+				CAEB4B74266FCD9C00C50E26 /* SkeletonIdle.atlas in Resources */,
+				CAEB4B92266FD4B700C50E26 /* MinotaurMove.atlas in Resources */,
+				CAEB4B93266FD4B700C50E26 /* MinotaurTaunt.atlas in Resources */,
+				CAEB4B9D266FD4BD00C50E26 /* MinotaurDamage1.atlas in Resources */,
+				CAEB4B75266FCD9C00C50E26 /* SkeletonReact.atlas in Resources */,
+				CAEB4B90266FD4B700C50E26 /* MinotaurAttack3.atlas in Resources */,
+				CAEB4B91266FD4B700C50E26 /* MinotaurAttack1.atlas in Resources */,
+				CAEB4B9B266FD4BD00C50E26 /* MinotaurDeath.atlas in Resources */,
+				CAEB4B8E266FD4B700C50E26 /* MinotaurAttack4.atlas in Resources */,
+				CAEB4B80266FCDEA00C50E26 /* SkeletonAttack.atlas in Resources */,
+				CAEB4B94266FD4B700C50E26 /* MinotaurAttack2.atlas in Resources */,
 				CAEB4B42266F9FE000C50E26 /* SkeletonWalk.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
