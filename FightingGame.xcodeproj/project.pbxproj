@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CABEF9A226710CEB00B54E89 /* GoblinIdle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CABEF99D26710CEA00B54E89 /* GoblinIdle.atlas */; };
+		CABEF9A326710CEB00B54E89 /* GoblinAttack.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CABEF99E26710CEA00B54E89 /* GoblinAttack.atlas */; };
+		CABEF9A426710CEB00B54E89 /* GoblinDamage.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CABEF99F26710CEA00B54E89 /* GoblinDamage.atlas */; };
+		CABEF9A526710CEB00B54E89 /* GoblinRun.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CABEF9A026710CEA00B54E89 /* GoblinRun.atlas */; };
+		CABEF9A626710CEB00B54E89 /* GoblinDeath.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CABEF9A126710CEA00B54E89 /* GoblinDeath.atlas */; };
 		CAEB4AFB266F997900C50E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB4AFA266F997900C50E26 /* AppDelegate.swift */; };
 		CAEB4B01266F997900C50E26 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB4B00266F997900C50E26 /* GameScene.swift */; };
 		CAEB4B03266F997900C50E26 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB4B02266F997900C50E26 /* GameViewController.swift */; };
@@ -51,6 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CABEF99D26710CEA00B54E89 /* GoblinIdle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GoblinIdle.atlas; sourceTree = "<group>"; };
+		CABEF99E26710CEA00B54E89 /* GoblinAttack.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GoblinAttack.atlas; sourceTree = "<group>"; };
+		CABEF99F26710CEA00B54E89 /* GoblinDamage.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GoblinDamage.atlas; sourceTree = "<group>"; };
+		CABEF9A026710CEA00B54E89 /* GoblinRun.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GoblinRun.atlas; sourceTree = "<group>"; };
+		CABEF9A126710CEA00B54E89 /* GoblinDeath.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GoblinDeath.atlas; sourceTree = "<group>"; };
 		CAEB4AF7266F997900C50E26 /* FightingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEB4AFA266F997900C50E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAEB4B00266F997900C50E26 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -131,6 +141,11 @@
 		CAEB4AF9266F997900C50E26 /* FightingGame */ = {
 			isa = PBXGroup;
 			children = (
+				CABEF99E26710CEA00B54E89 /* GoblinAttack.atlas */,
+				CABEF99F26710CEA00B54E89 /* GoblinDamage.atlas */,
+				CABEF9A126710CEA00B54E89 /* GoblinDeath.atlas */,
+				CABEF99D26710CEA00B54E89 /* GoblinIdle.atlas */,
+				CABEF9A026710CEA00B54E89 /* GoblinRun.atlas */,
 				CAEB4BA12670136A00C50E26 /* MinotaurJump.atlas */,
 				CAEB4B9A266FD4BD00C50E26 /* MinotaurDamage1.atlas */,
 				CAEB4B99266FD4BD00C50E26 /* MinotaurDamage2.atlas */,
@@ -281,8 +296,10 @@
 			files = (
 				CAEB4B9C266FD4BD00C50E26 /* MinotaurDamage2.atlas in Resources */,
 				CAEB4B06266F997900C50E26 /* Main.storyboard in Resources */,
+				CABEF9A526710CEB00B54E89 /* GoblinRun.atlas in Resources */,
 				CAEB4B78266FCD9C00C50E26 /* SkeletonHit.atlas in Resources */,
 				CAEB4BA22670136A00C50E26 /* MinotaurJump.atlas in Resources */,
+				CABEF9A226710CEB00B54E89 /* GoblinIdle.atlas in Resources */,
 				CAEB4B08266F997C00C50E26 /* Assets.xcassets in Resources */,
 				CAEB4B77266FCD9C00C50E26 /* SkeletonDead.atlas in Resources */,
 				CAEB4B8F266FD4B700C50E26 /* MinotaurIdle.atlas in Resources */,
@@ -291,13 +308,16 @@
 				CAEB4B93266FD4B700C50E26 /* MinotaurTaunt.atlas in Resources */,
 				CAEB4B9D266FD4BD00C50E26 /* MinotaurDamage1.atlas in Resources */,
 				CAEB4B75266FCD9C00C50E26 /* SkeletonReact.atlas in Resources */,
+				CABEF9A326710CEB00B54E89 /* GoblinAttack.atlas in Resources */,
 				CAEB4B90266FD4B700C50E26 /* MinotaurAttack3.atlas in Resources */,
 				CAEB4B91266FD4B700C50E26 /* MinotaurAttack1.atlas in Resources */,
 				CAEB4B9B266FD4BD00C50E26 /* MinotaurDeath.atlas in Resources */,
 				CAEB4B8E266FD4B700C50E26 /* MinotaurAttack4.atlas in Resources */,
 				CAEB4B80266FCDEA00C50E26 /* SkeletonAttack.atlas in Resources */,
+				CABEF9A426710CEB00B54E89 /* GoblinDamage.atlas in Resources */,
 				CAEB4B94266FD4B700C50E26 /* MinotaurAttack2.atlas in Resources */,
 				CAEB4B42266F9FE000C50E26 /* SkeletonWalk.atlas in Resources */,
+				CABEF9A626710CEB00B54E89 /* GoblinDeath.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
